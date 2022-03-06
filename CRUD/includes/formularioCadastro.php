@@ -5,11 +5,9 @@
             <button class="btn btn-success"> Voltar </button>
         </a>
     </section>
-    <h2 class="mt-5" ><?=TITLE?> </h2>
+    <h2 class="mt-5"><?= TITLE ?></h2>
     <form method="post" class="mt-5">
-        
-        <h4 style="color:Red"> <?=$alerta?> </h4>
-        
+
         <div class="form-group">
             <label>Tipo Usuário</label>
             <div>
@@ -25,10 +23,10 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="form-group">
             <label> Nome Completo: </label>
-            <input type="text" class="form-control" name='nome' >
+            <input type="text" class="form-control" name='nome'>
         </div>
 
         <div class="form-group">
@@ -40,7 +38,7 @@
             <label> Senha: </label>
             <input type="text" class="form-control" name='senha'>
         </div>
-    
+
         <div class="form-group">
             <label> Email: </label>
             <input type="text" class="form-control" name='email'>
@@ -59,7 +57,5 @@
         <div class="form-group">
             <button type="submit" class="btn btn-success mt-4">Enviar</button>
         </div>
-
     </form>
-
 </main>
